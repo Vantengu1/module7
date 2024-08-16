@@ -1,1 +1,213 @@
-/* Style */
+@import url(/node_modules/normalize.css/normalize.css);
+
+body {
+    padding: 30px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 1920px;
+    height: 4000px;
+    background-image: url(/images/BG\ 1.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat, repeat-y;
+    background-color: #0B1D26;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1760px;
+    margin: auto;
+}
+
+.header__container {
+    max-width: 1760px;
+    margin: 0 69px 0 91px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 14px 20px 15px 0px;
+}
+
+.header__menu ul {
+    padding: 16px 20px;
+    margin-left: 17px;
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 15px;
+}
+
+.menu__item:nth-child(2) {
+    margin-right: 29px;
+    margin-left: 14px;
+}
+
+.menu__item:nth-child(3) {
+    margin-right: 21px;
+    margin-left: 4px;
+}
+
+.menu__link {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.header__account {
+    display: flex;
+    padding: 17px 0px 14px 20px;
+    margin-right: 2px;
+}
+
+.header__account p {
+    margin-left: 7px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+}
+
+/* baner */
+.baner {
+    margin-top: 145px;
+    height: 500px;
+    max-width: 1763px;
+    margin-left: 77px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.baner__tag-line {
+    position: relative;
+    max-width: 323px;
+    max-height: 27px;
+    padding: 1px 0px 0px 96px;
+    margin-left: 37px;
+    text-align: center;
+    color: #FBD784;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 27px;
+    letter-spacing: 6px;
+    grid-column: 3 / 6;
+    grid-row: 1 / 1;
+}
+
+.baner__tag-line:after {
+    content: "";
+    height: 2px;
+    width: 72px;
+    background: #FBD784;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin: 2px 0 0 -6px;
+}
+
+.baner__h1 {
+    font-family: "Playfair Display", system-ui;;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: -21px 0 0 31px ;
+    grid-column: 3 / 8;
+    grid-row: 2 / 5;
+}
+
+.baner__button_scroll {
+    display: flex;
+    max-width: 127px;
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    margin: -22px 0 0 31px;
+}
+
+.baner__button_scroll p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.baner__button_scroll svg {
+    margin-left: 4px;
+}
+
+.baner__folow{
+    display: flex;
+    flex-direction: column;
+    width: 27px;
+    max-height: 175px;
+    margin: -10px 0 0 0;
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+}
+
+.baner__folow p {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    writing-mode: vertical-rl
+}
+
+.baner__folow a {
+    margin: 0 0 19px 3px;
+}
+
+.baner__folow a:last-child {
+    margin: 0 0 0 3px;
+}
+
+.baner__slider {
+	overflow-x: auto;
+    max-width: 77px;
+    max-height: 244px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 9 / 10;
+    grid-row: 2 / 6;
+    margin: -43px 0 0 120px;
+}
+
+.baner__slider::-webkit-scrollbar {
+    width: 3px;
+}
+.baner__slider::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    opacity: 50%;
+}
+.baner__slider::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.slider__item {
+    text-align: center;
+    margin: 16px 3px 40px 0;
+}
+
+.slider__item:first-child {
+    text-align: start;
+}
+
+.slider__link {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
