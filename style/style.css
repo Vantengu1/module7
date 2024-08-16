@@ -11,6 +11,7 @@ body {
     background-attachment: scroll;
     background-repeat: no-repeat, repeat-y;
     background-color: #0B1D26;
+    overflow-x: hidden;
 }
 
 a {
@@ -239,6 +240,8 @@ section {
     font-weight: 700;
     line-height: 240px;
     text-align: left;
+    color: #ffffff;
+    opacity: 20%;
     margin: 38px 0 0 10px;
     grid-column: 1 / 1;
     grid-row: 1 / 2;
@@ -252,6 +255,9 @@ section {
     grid-row: 2 / 2;
     margin: 9px 0 0 148px;
 }
+.title {
+    color: #ffffff;
+}
 .section1__title {
     font-family: "Playfair Display", system-ui;
     font-size: 64px;
@@ -263,6 +269,7 @@ section {
     margin: 64px 0 0 141px;
 }
 .text {
+    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
@@ -415,6 +422,8 @@ section {
     font-weight: 400;
     line-height: 32px;
     text-align: left;
+    color: #ffffff;
+    opacity: 20%;
     grid-column: 1 / 3;
     grid-row: 6 / 7;
     margin: 13px 0 0 25px;
@@ -469,3 +478,6 @@ section {
     line-height: 32px;
     text-align: left;
 }
+
+
+/* Desctop 1540px */
